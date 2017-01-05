@@ -6,10 +6,127 @@
     
     <!--Put your CSS inside this style tag-->
     <style>
+
+    	/** img#picture {
+    		width: 450px;
+    		height: 450px;
+    		margin-top: 40px;
+    	} */
+    	img#user {
+    		border-radius: 100%;
+    		border: 1px solid lightgray;
+    		width: 20px;
+    	}
+    	img.icons {
+    		width: 20px;
+    		margin-top: 6px;
+    	}
+    	img.icons2 {
+    		width: 20px;
+    		margin-top: 13px;
+    	}
+
+    	div.main {
+    		width: 450px;
+    		height: 550px;
+    		/** border: 1px solid black; */
+    		margin: auto;
+    	}
+    	div.header {
+    		border: 1px solid lightgray;
+    		height: 25px;
+    		padding: 10px;
+    		font-size: 12px;
+    	}
+    	p.username {
+    		font-size: 11px;
+    		margin: auto;
+    	}
+    	div.img {
+    		border: 1px solid lightgray;
+    		background-image: url(img/highpoint.jpg);
+    		background-size: cover;
+    		height: 400px;
+    	}
+    	div.footer {
+    		border: 1px solid lightgray;
+    		height: 75px;
+    		padding: 13px;
+    		font-size: 13px;
+    		line-height: 5px;
+    		display: block;
+    	}
+    	p.comment {
+    		font-size: 11px;
+    	}
+    	hr {
+    		border: 0;
+    		height: 1px;
+    		background-color: lightgray;
+    	}
+    	p.gray {
+    		color: gray;
+    	}
+
+    	div.left {
+    		float: left;
+    		width: 30px;
+    		height: 25px;
+    		display: inline-block;
+    		margin: auto;
+    		/** border: 1px solid black; */
+    	}
+    	div.left2 {
+    		float: left;
+    		width: 140px;
+    		height: 30px;
+    		display: inline-block;
+    		margin-bottom: 10px;
+    		padding-bottom: 10px;
+    		/** border: 1px solid black; */
+    	}
+    	div.right {
+    		float: right;
+    		width: 30px;
+    		display: inline-block;
+    		color: gray;
+    		/** border: 1px solid black; */
+    	}
+    	div.clear {
+    		clear: left;
+    	}
+
     </style>
   </head>
   
   <body>
+  	<div class="main">
+	  	<div class="header">
+	  		<div class="left">
+	  			<img id="user" src="img/profilepic.png">
+	  		</div>
+	  		<div class="left2">
+	  			<p class="username"><strong>PogChamp</strong><br>PogChamp</p>
+	  		</div>
+	  		<div class="right">27m</div>
+	  		<div class="clear"></div>
+	  	</div>
+	  	<div class="img">
+	  		<!--<img id="picture" src="img/highpoint.jpg">-->
+	  	</div>
+	  	<div class="footer">
+	  		<p class="comment"><strong>27 likes</strong></p>
+	  		<p class="comment"><strong>Thelegend27</strong> I could get up that high.</p>
+	  		<hr>
+	  		<div class="left">
+	  			<img class="icons" src="img/ig_heart.png">
+	  		</div>
+	  		<div class="left2">
+	  			<p class="gray">Add a comment...</p>
+	  		</div>
+	  		<div class="right"><img class="icons2" src="img/ig_dots.png"></div>
+	  		<div class="clear"></div>
+	  	</div>
+  	</div>
   </body>
-  
 </html>
